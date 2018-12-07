@@ -7,5 +7,6 @@ namespace Gestimonio.Models
     {
         public int CodigoSemana { get; set; }
         public string Dia { get; set; }
+        public int? CodigoAreaComun { get; set; }
     }
 }

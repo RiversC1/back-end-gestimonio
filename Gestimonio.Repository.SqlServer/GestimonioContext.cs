@@ -1,22 +1,23 @@
 ﻿using System;
-using Gestimonio.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Gestimonio.Repository.SqlServer
+namespace Gestimonio.Models.Models
 {
-    public partial class gestimonio2Context : DbContext
+    public partial class GestimonioContext : DbContext
     {
-        public gestimonio2Context()
+        public GestimonioContext()
         {
         }
 
-        public gestimonio2Context(DbContextOptions<gestimonio2Context> options)
+        public GestimonioContext(DbContextOptions<GestimonioContext> options)
             : base(options)
         {
         }
 
+        public virtual DbSet<TbAreaComun> TbAreaComun { get; set; }
         public virtual DbSet<TbEstado> TbEstado { get; set; }
+        public virtual DbSet<TbReciboCobranza> TbReciboCobranza { get; set; }
         public virtual DbSet<TbReserva> TbReserva { get; set; }
         public virtual DbSet<TbSemana> TbSemana { get; set; }
         public virtual DbSet<TbTipoCargo> TbTipoCargo { get; set; }
@@ -25,11 +26,44 @@ namespace Gestimonio.Repository.SqlServer
         public virtual DbSet<TbUsuario> TbUsuario { get; set; }
         public virtual DbSet<TbVisitante> TbVisitante { get; set; }
 
-        // Unable to generate entity type for table 'dbo.Tb_areaComun'. Please see the warning messages.
-        // Unable to generate entity type for table 'dbo.tb_ReciboCobranza'. Please see the warning messages.
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Gestimonio;Integrated Security=True;");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<TbAreaComun>(entity =>
+            {
+                entity.HasKey(e => e.CodigoAreaComun);
+
+                entity.ToTable("Tb_areaComun");
+
+                entity.Property(e => e.CodigoAreaComun).HasColumnName("codigoAreaComun");
+
+                entity.Property(e => e.CodigoEstado).HasColumnName("codigoEstado");
+
+                entity.Property(e => e.CodigoSemana).HasColumnName("codigoSemana");
+
+                entity.Property(e => e.DescripcionAreaComun)
+                    .HasColumnName("descripcionAreaComun")
+                    .HasMaxLength(150)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.HoraMaxima).HasColumnName("horaMaxima");
+
+                entity.Property(e => e.LimiteReserva).HasColumnName("limiteReserva");
+
+                entity.Property(e => e.NombreAreaComun)
+                    .HasColumnName("nombreAreaComun")
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+            });
+
             modelBuilder.Entity<TbEstado>(entity =>
             {
                 entity.HasKey(e => e.CodigoEstado);
@@ -42,6 +76,25 @@ namespace Gestimonio.Repository.SqlServer
                     .HasColumnName("descripcionEstado")
                     .HasMaxLength(100)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<TbReciboCobranza>(entity =>
+            {
+                entity.HasKey(e => e.IdDepartamento);
+
+                entity.ToTable("tb_ReciboCobranza");
+
+                entity.Property(e => e.IdDepartamento)
+                    .HasColumnName("idDepartamento")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.FechaVencimiento)
+                    .HasColumnName("fechaVencimiento")
+                    .HasColumnType("date");
+
+                entity.Property(e => e.Monto)
+                    .HasColumnName("monto")
+                    .HasColumnType("decimal(10, 2)");
             });
 
             modelBuilder.Entity<TbReserva>(entity =>
@@ -58,10 +111,7 @@ namespace Gestimonio.Repository.SqlServer
 
                 entity.Property(e => e.CantidaHoraMax).HasColumnName("cantidaHoraMax");
 
-                entity.Property(e => e.CodigoAreaComun)
-                    .HasColumnName("codigoAreaComun")
-                    .HasMaxLength(10)
-                    .IsUnicode(false);
+                entity.Property(e => e.CodigoAreaComun).HasColumnName("codigoAreaComun");
 
                 entity.Property(e => e.CodigoUsuario).HasColumnName("codigoUsuario");
 
@@ -86,6 +136,8 @@ namespace Gestimonio.Repository.SqlServer
                 entity.Property(e => e.CodigoSemana)
                     .HasColumnName("codigoSemana")
                     .ValueGeneratedNever();
+
+                entity.Property(e => e.CodigoAreaComun).HasColumnName("codigoAreaComun");
 
                 entity.Property(e => e.Dia)
                     .HasColumnName("dia")

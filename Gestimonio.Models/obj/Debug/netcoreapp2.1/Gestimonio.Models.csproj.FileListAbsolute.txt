@@ -1,0 +1,11 @@
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\bin\Debug\netcoreapp2.1\Gestimonio.Models.deps.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\bin\Debug\netcoreapp2.1\Gestimonio.Models.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\bin\Debug\netcoreapp2.1\Gestimonio.Models.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\obj\Debug\netcoreapp2.1\Gestimonio.Models.csprojAssemblyReference.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\obj\Debug\netcoreapp2.1\Gestimonio.Models.csproj.CoreCompileInputs.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\obj\Debug\netcoreapp2.1\Gestimonio.Models.AssemblyInfoInputs.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\obj\Debug\netcoreapp2.1\Gestimonio.Models.AssemblyInfo.cs
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\obj\Debug\netcoreapp2.1\Gestimonio.Models.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\obj\Debug\netcoreapp2.1\Gestimonio.Models.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\bin\Debug\netcoreapp2.1\Gestimonio.Models.runtimeconfig.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Models\bin\Debug\netcoreapp2.1\Gestimonio.Models.runtimeconfig.dev.json

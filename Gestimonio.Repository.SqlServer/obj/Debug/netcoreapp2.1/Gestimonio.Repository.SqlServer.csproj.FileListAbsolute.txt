@@ -1,0 +1,16 @@
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.deps.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.csprojAssemblyReference.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.csproj.CoreCompileInputs.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.AssemblyInfoInputs.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.AssemblyInfo.cs
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.runtimeconfig.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.runtimeconfig.dev.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Models.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Repository.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\bin\Debug\netcoreapp2.1\Gestimonio.Models.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository.SqlServer\obj\Debug\netcoreapp2.1\Gestimonio.Repository.SqlServer.csproj.CopyComplete

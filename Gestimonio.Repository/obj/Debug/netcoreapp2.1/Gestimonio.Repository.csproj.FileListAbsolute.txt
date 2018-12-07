@@ -1,0 +1,14 @@
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Repository.deps.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Repository.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Repository.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.csproj.CoreCompileInputs.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.AssemblyInfoInputs.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.AssemblyInfo.cs
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.csprojAssemblyReference.cache
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Repository.runtimeconfig.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Repository.runtimeconfig.dev.json
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Models.dll
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\bin\Debug\netcoreapp2.1\Gestimonio.Models.pdb
+E:\proyecto,paisano\net core\Gestimonio.Models\Gestimonio.Repository\obj\Debug\netcoreapp2.1\Gestimonio.Repository.csproj.CopyComplete
